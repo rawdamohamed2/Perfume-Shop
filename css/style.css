@@ -1,0 +1,133 @@
+:root{
+    --primary-color: #d4af37;
+    --secondary-color: #373635;
+    --tertiary-color: #ECE8DB;
+    --font-color: #0b0b0b;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+.bg{
+    background-color: #e1dccd;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--tertiary-color);
+    font-size: 1.1rem;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbarScroll{
+    background-color: var(--secondary-color);
+}
+ #home{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/pexels-daria-liudnaya-8166566.jpg) no-repeat center center/cover;
+ }
+.nav-link{
+    color: var(--primary-color); 
+}
+.navbar-brand{
+    color: var(--primary-color);
+}
+.container{
+    width: 85%;
+    height: 100%;
+}
+.height{
+    min-height: 85dvh;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 1.6rem;
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 10px rgba(241, 195, 41, 0.655);
+    border: none;
+}
+.card .btn{
+    padding: 10px 10px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+}
+.card .btn:hover{
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 10px var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.btn:hover{
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.card{
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    transition: all 0.3s ease;
+}
+.card p{
+    color: var(--secondary-color);
+}
+.card h5{
+    color: var(--secondary-color);
+}
+li{
+    padding-top: 11px;
+}
+.card-img-top{
+    height: 290px;
+}
+.card-price{
+    color: var(--primary-color);
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--tertiary-color);
+}
+.carousel-indicators .btncarousel{
+    padding: 4px 0px;
+    width: 22px;
+    border-radius: 100%;
+
+}
+#products .col-md-4{
+    transition: all 0.3s ease;
+}
+#products .col-md-4:hover{
+    transform: scale(1.04);
+}
+#products .col-md-4 .card:hover{
+    box-shadow: 0px 0px 10px var(--primary-color);
+}
+.col-md-8{
+    transition: all 0.3s ease;
+}
+.col-md-8:hover{
+    transform: rotate(1deg);
+}
+.col-md-8 .card:hover{
+    box-shadow: 0px 0px 5px var(--primary-color);
+}
+i{
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+i:hover{
+    color: var(--tertiary-color-color);
+}
+.contact{
+    background-color: #373635;
+}
+@media screen and (max-width: 768px) {
+  .container{
+        width: 90%;
+   } 
+   iframe{
+        width: 100%;
+        height: 100%;
+   }
+
+}
